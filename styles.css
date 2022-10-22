@@ -1,0 +1,121 @@
+body{
+    font-family: Plus Jakarta Sans;
+    background-color: aliceblue;
+}
+li{
+    list-style: none;
+}
+.wrapper{
+    margin: 20px;
+    padding: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.header--grid--item--1{
+    font-size: large;
+    font-weight: 700;
+    /* margin: 0px 20px 0px 20px; */
+}
+
+.notification-number{
+    display: inline-block;
+    
+    font-size: 12px;
+    background-color: blue;
+    border-radius: 3px;
+    color: azure;
+    padding: 4px;
+    vertical-align: middle;
+    box-sizing: border-box;
+}
+.grid-container-header{
+    display: inline-grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    width: 100%;
+
+}
+.header--grid--item{
+    color: rgb(177, 177, 177);
+   margin-left: auto;
+   margin-right: 0;
+
+    
+}
+.mark--read:hover{
+    color: rgb(110, 110, 110);
+    transition-duration: 100ms;
+    
+}
+.grid-container-notifications{
+
+    display: grid;
+    grid-gap: 5px;
+    margin-top: 20px;
+    padding: 0;
+
+    
+}
+.notification--grid--item{
+    width: auto;
+    background-color: hsl(221, 52%, 95%);
+    border-radius: 5px;
+
+
+}
+.notification--grid--item:hover{
+    background-color: hsl(225, 27%, 91%);
+    transition-duration: 100ms;
+
+
+}
+.profile--picture{
+    height: 40px;
+    width: 40px;
+    margin: 10px;
+    vertical-align: middle;
+    float:left
+}
+.notification--text{
+    color: rgb(77, 82, 82);
+    margin-top: 5px;
+    display: inline;
+}
+.notification--subject{
+    font-weight: 800;
+    color: rgb(47, 47, 96);
+}
+.checkmark--unread {
+    display: inline-block;
+    box-sizing: border-box;
+    background-color: rgb(246, 106, 68);
+    border-radius: 5px;
+    width: 10px;
+    height: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+.notification--text-time{
+    margin: auto;
+    color: rgb(122, 129, 129);
+    font: 1em sans-serif;
+}
+.user-name{
+    font-weight: bold;
+    color: black;
+}
+.message{
+    display: block;
+    color: rgb(77, 82, 82);
+    justify-content: left;
+    border: solid 1px gray;
+    border-radius: 5px;
+    margin: 10px 10px 10px 40px;
+    padding: 10px;
+}
+.image_notification{
+    float: right;
+    margin: 10px;
+    height: 50px;
+    width: 50px;
+    display: inline;
+    box-sizing: border-box;
+}
